@@ -1,0 +1,16 @@
+To start automation testing for a project 
+create folder
+
+then open folder in cmd 
+
+to create virtual environment run: python -m venv venv
+
+then activate the virtual environment:  venv\Scripts\activate
+
+then install pytest with playwright: pip install pytest-playwright
+
+then install required browsers: playwright install
+
+then create test e.g test_login.py  etc "using test_ is compulsory"
+
+then to execute that file: pytest .\tests\test_login.py
