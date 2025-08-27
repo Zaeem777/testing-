@@ -55,7 +55,7 @@ echo     page.close^(^)
 
 REM Install required packages inside venv
 echo Installing dependencies...
-pip install pytest pytest-playwright pytest-html playwright
+pip install pytest pytest-playwright pytest-html playwright pytest-xdist
 
 REM Install Playwright browsers
 playwright install
